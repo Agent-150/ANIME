@@ -11,4 +11,4 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-CMD ["python3", "main/__main__.py "]
+CMD python3 -m main

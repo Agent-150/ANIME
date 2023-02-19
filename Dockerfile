@@ -1,7 +1,9 @@
 FROM python
 
-RUN pip install -r requirements.txt
-
+RUN RUN apt-get update && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+    
 COPY . /app/
 WORKDIR /app/
 RUN apt-get update && \

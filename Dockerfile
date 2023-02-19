@@ -1,4 +1,4 @@
-FROM python3 -m main.py
+FROM python3 
 WORKDIR /app
 
 COPY requirements.txt requirements.txt

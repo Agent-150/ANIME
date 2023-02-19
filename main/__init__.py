@@ -1,3 +1,4 @@
+pip install pyrogram
 from pyrogram import Client
 from config import *
 

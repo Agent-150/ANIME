@@ -1,4 +1,4 @@
-pyrogram
+pip install pyrogram
 TgCrypto
 aiohttp
 python-dotenv

@@ -1,6 +1,6 @@
 FROM python
 
-RUN RUN apt-get update && \
+RUN  apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
     
